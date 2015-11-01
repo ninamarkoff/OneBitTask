@@ -24,7 +24,7 @@
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
             config.Formatters.JsonFormatter.SerializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
 
-            var cors = new EnableCorsAttribute("http://usersapp.com", "*", "*", "*");
+            var cors = new EnableCorsAttribute("http://localhost:4257", "*", "*", "*");
             config.EnableCors(cors);
 
         }
