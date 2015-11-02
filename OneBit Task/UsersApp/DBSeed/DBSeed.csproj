@@ -58,13 +58,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UserApp.Data\UsersApp.Data.csproj">
-      <Project>{b5cc252f-d1df-4bbc-8649-151f4485e8f5}</Project>
-      <Name>UsersApp.Data</Name>
+    <ProjectReference Include="..\UserApp.Data\UserApp.Data.csproj">
+      <Project>{b57238b1-fa01-4a80-87f7-5a6d2501081f}</Project>
+      <Name>UserApp.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UserApp.DBModels\UsersApp.DBModels.csproj">
-      <Project>{6ab8c7a3-0384-49f8-ba90-f5dccd5c42da}</Project>
-      <Name>UsersApp.DBModels</Name>
+    <ProjectReference Include="..\UserApp.DBModels\UserApp.DBModels.csproj">
+      <Project>{6561b7bb-1819-4953-9cf6-af74f08c508f}</Project>
+      <Name>UserApp.DBModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

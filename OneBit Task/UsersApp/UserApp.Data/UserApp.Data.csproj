@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B5CC252F-D1DF-4BBC-8649-151F4485E8F5}</ProjectGuid>
+    <ProjectGuid>{B57238B1-FA01-4A80-87F7-5A6D2501081F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UserApp.Data</RootNamespace>
@@ -60,7 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\UserApp.DBModels\UserApp.DBModels.csproj">
-      <Project>{6ab8c7a3-0384-49f8-ba90-f5dccd5c42da}</Project>
+      <Project>{6561b7bb-1819-4953-9cf6-af74f08c508f}</Project>
       <Name>UserApp.DBModels</Name>
     </ProjectReference>
   </ItemGroup>
