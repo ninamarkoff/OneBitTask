@@ -1,9 +1,11 @@
-﻿namespace UserApp.Data.Interfaces
+﻿namespace UserApp.Data
 {
     using System;
-    using System.Data.Entity;
     using System.Linq;
     using System.Linq.Expressions;
+
+    using System.Data.Entity;
+
     using Contracts;
 
     public class Repository<T> : IRepository<T> where T : class

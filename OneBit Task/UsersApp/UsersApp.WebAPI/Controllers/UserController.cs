@@ -1,15 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using AutoMapper;
-using UserApp.Data;
-using UserApp.Data.Contracts;
-using UserApp.DBModels.DBModels;
-using UsersApp.WebAPI.ViewModels;
-
-namespace UsersApp.WebAPI.Controllers
+﻿namespace UsersApp.WebAPI.Controllers
 {
+   
+    using System.Collections.Generic;
+    using System.Linq;
+    
+    using UserApp.Data.Contracts;
+    using ViewModels;
+
     using System.Web.Http;
+    using AutoMapper;
 
     public class UserController : BaseController
     {
@@ -29,7 +28,7 @@ namespace UsersApp.WebAPI.Controllers
 
 
         [HttpGet]
-        public IHttpActionResult GetById([FromUri]int id)
+        public IHttpActionResult GetById(int id)
         {
             var dbUser = data.Users.All().FirstOrDefault(p => p.UserId == id && p.Status.Description.ToLower() != "deleted");
             if (dbUser == null)

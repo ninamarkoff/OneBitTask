@@ -1,11 +1,13 @@
 ﻿namespace UserApp.Data
 {
+
     using System;
     using System.Collections.Generic;
+
     using System.Data.Entity;
+
     using Contracts;
     using DBModels.DBModels;
-    using Interfaces;
 
     public class UserAppData : IUserAppData
     {

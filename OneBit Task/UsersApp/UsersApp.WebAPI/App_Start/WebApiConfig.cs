@@ -17,7 +17,7 @@
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "{controller}/{action}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                defaults: new { controller = "user", action = "all", id = RouteParameter.Optional }
             );
 
 
@@ -26,7 +26,6 @@
 
             var cors = new EnableCorsAttribute("http://localhost:4257", "*", "*", "*");
             config.EnableCors(cors);
-
         }
     }
 }

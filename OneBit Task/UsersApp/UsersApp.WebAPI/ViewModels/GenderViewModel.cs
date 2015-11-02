@@ -1,8 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using UsersApp.WebAPI.ViewModels.Helpers;
-
-namespace UsersApp.WebAPI.ViewModels
+﻿namespace UsersApp.WebAPI.ViewModels
 {
     public class GenderViewModel
     {

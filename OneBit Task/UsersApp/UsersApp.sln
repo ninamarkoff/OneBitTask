@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserApp.DBModels", "UserApp.DBModels\UserApp.DBModels.csproj", "{6AB8C7A3-0384-49F8-BA90-F5DCCD5C42DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersApp.DBModels", "UserApp.DBModels\UsersApp.DBModels.csproj", "{6AB8C7A3-0384-49F8-BA90-F5DCCD5C42DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserApp.Data", "UserApp.Data\UserApp.Data.csproj", "{B5CC252F-D1DF-4BBC-8649-151F4485E8F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersApp.Data", "UserApp.Data\UsersApp.Data.csproj", "{B5CC252F-D1DF-4BBC-8649-151F4485E8F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBSeed", "DBSeed\DBSeed.csproj", "{2479FE74-EBE3-4AB1-BCD0-996602620294}"
 EndProject

@@ -1,7 +1,7 @@
-﻿using UserApp.DBModels.DBModels;
-
-namespace UserApp.Data.Contracts
+﻿namespace UserApp.Data.Contracts
 {
+    using DBModels.DBModels;
+
    public interface IUserAppData
     {
         IRepository<User> Users { get; }

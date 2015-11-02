@@ -10,6 +10,7 @@
 namespace UserApp.DBModels.DBModels
 {
     using System;
+
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
