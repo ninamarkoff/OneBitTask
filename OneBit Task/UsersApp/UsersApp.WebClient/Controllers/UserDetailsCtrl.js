@@ -7,7 +7,7 @@
         usersData.getUserById($routeParams.id)
         .then(function (data) {
             vm.user = data;
-            console.log($routeParams.id);
+            //console.log($routeParams.id);
         },
             function (error) {
                 console.log(error);
@@ -32,7 +32,6 @@
                 });
         }
     }
-
 
     angular.module('UsersApp')
         .controller('UserDetailsCtrl', ['$scope', '$location', '$routeParams', 'usersData', userDetailsCtrl]);

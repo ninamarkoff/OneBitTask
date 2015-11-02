@@ -7,18 +7,14 @@
         usersData.getAllUsers()
         .then(function (data) {
             vm.users = data;
-            console.log(vm.users);
+            //console.log(vm.users);
         },
             function (error) {
                 console.log(error);
             });
     }
 
-
     angular.module('UsersApp')
         .controller('HomeCtrl', ['$scope', 'usersData', homeCtrl]);
-
-
-
 }())
 
